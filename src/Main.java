@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         ArrayList<Stock> stocks= new ArrayList<Stock>();
 
-        stocks.add(new Stock("NFLX"));   //$333.20, 0.10 change
+        stocks.add(new Stock("NFLX"));   //$333.20, 0.$10 change
         stocks.add(new Stock("FB"));
         stocks.add(new Stock("TSLA"));
         stocks.add(new Stock("AAPL"));
@@ -20,7 +20,7 @@ public class Main {
         stocks.add(new Stock("CVS"));
         stocks.add(new Stock("GM"));
         stocks.add(new Stock("F"));
-        stocks.add(new Stock("T"));     //$38.96, -0.1
+        stocks.add(new Stock("T"));     //$38.96, -$0.1 change
 
         for(int i=0; i<stocks.size(); i++) {
             System.out.println(stocks.get(i));
